@@ -4,10 +4,10 @@
 //import * as は全てをインポートする
 import * as actionTypes from '../utils/actionTypes';
 
-//数字をボタンを押した時
-export const onNumClick = (Number) => ({
+//数字のボタンを押した時
+export const onNumClick = (number) => ({
     type: actionTypes.INPUT_NUMBER,
-    Number,
+    number,
     });
 
 //プラスボタンを押した時
