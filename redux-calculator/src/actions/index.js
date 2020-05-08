@@ -15,4 +15,19 @@ export const onPlusClick = () => ({
     type:actionTypes.PLUS,
     }) ;
 
+//マイナスボタンを押した時
+export const onMinusClick = () => ({
+    type:actionTypes.MINUS,
+    }) ;    
 
+//クリアボタンを押した時
+export const onClearClick = () => ({
+    type:actionTypes.CLEAR,
+    }) ;       
+
+//イコールボタンを押した時
+export const onEqualClick = () => ({
+    type:actionTypes.EQUAL,
+    }) ;       
+
+    

@@ -3,9 +3,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../components.css';
 
 const NumBtn = ({n, onClick}) => (
-    <button onClick={onClick}>{n}</button>
+    <button  className="numButtonStyle"
+    onClick={onClick}>{n}</button>
 );
 
 NumBtn.propTypes = {

@@ -1,0 +1,32 @@
+.numButtonStyle {
+    color: #fff;
+    font-size: 40px;
+    width:  80px;
+    height: 80px;
+    border-radius:100%;
+    border: black;
+    background-color:gray
+    }
+
+.stateButtonStyle {
+    color: #fff;
+    font-size: 40px;
+    width:  80px;
+    height: 80px;
+    border-radius:100%;
+    border: black;
+    background-color: coral;
+    }
+
+.ResultStyle {
+    color:black;
+    font-size: 40px;
+    position: absolute;
+    top: 430px;
+    left: 20px;
+    /* width:  80px;
+    height: 80px;
+    border: black;
+    background-color: coral; */
+    }
+    

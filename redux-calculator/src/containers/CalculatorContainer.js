@@ -2,10 +2,17 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import '../components.css';
+
 import * as actions from '../actions';
 import NumBtn from '../components/NumBtn';
 import PlusBtn from '../components/PlusBtn';
+import MinusBtn from '../components/MinusBtn';
+import ClearBtn from '../components/ClearBtn';
+import EqualBtn from '../components/EqualBtn';
+
 import Result from '../components/Result';
+
 
 class CalculatorContainer extends Component {
     render() {
@@ -30,6 +37,11 @@ class CalculatorContainer extends Component {
             <div>
             <NumBtn n={0} onClick={() => actions.onNumClick(0)} />
             <PlusBtn onClick={actions.onPlusClick} />
+            <MinusBtn onClick={actions.onMinusClick} />
+            </div>
+            <div>
+            <EqualBtn onClick={actions.onEqualClick} />
+            <ClearBtn onClick={actions.onClearClick} />
             </div>
             <Result result={calculator.showingResult ? calculator.resultValue : calculator.inputValue} />
         </div>
@@ -48,3 +60,4 @@ function mapDispatch(dispatch) {
 }
 
 export default connect(mapState, mapDispatch)(CalculatorContainer);
+
