@@ -5,7 +5,8 @@
     height: 80px;
     border-radius:100%;
     border: black;
-    background-color:gray
+    background-color:gray;
+    text-align: center;
     }
 
 .stateButtonStyle {
@@ -16,6 +17,7 @@
     border-radius:100%;
     border: black;
     background-color: coral;
+    text-align: center;
     }
 
 .ResultStyle {
